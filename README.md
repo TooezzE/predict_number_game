@@ -8,7 +8,7 @@ Write a program that guesses the number guessed by the computer in the least num
 - Algorithm predicting depending on is number less or more than required
 
 **Quality metric**
-Results are assessed by the average number of attempts out of 1000 repetitions
+- Results are assessed by the average number of attempts out of 1000 repetitions
 
 ## Projects
 
