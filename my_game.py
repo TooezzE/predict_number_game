@@ -33,7 +33,7 @@ def game_core_v3(number: int = 1) -> int:
     # Ваш код начинается здесь
     count = 0 
     predict = np.random.randint(1, 101) 
-    prev_step = 50 
+    prev_step = 50
  
     while number != predict: 
         count += 1 
@@ -41,6 +41,9 @@ def game_core_v3(number: int = 1) -> int:
             predict -= prev_step 
         elif number > predict: 
             predict += prev_step 
+            
+        if prev_step < 2:
+            continue
          
         prev_step = round(prev_step / 2, 0)
     # Ваш код заканчивается здесь
